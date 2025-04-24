@@ -1,0 +1,44 @@
+*{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.container{
+    border: 1px solid rgb(160, 160, 160);
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 0rem .5rem .5rem .03rem rgb(160, 160, 160);
+    width: 25rem;
+    height: 20rem;
+    margin: 1px auto;
+}
+
+.painel{
+    /*border: 1px solid rgb(160, 160, 160);*/
+    padding: 1rem;
+    /*border-radius: .5rem;*/
+    display: flex;
+}
+
+input{
+    flex: 2;
+    border-radius: .5rem;
+    border: 1px solid rgb(160, 160, 160);
+    padding: .5rem;
+}
+
+button{
+    flex: 1;
+    margin-left: 1rem;
+    background-color: rgb(28, 28, 126);
+    color: rgb(160, 160, 160);
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+button:hover{
+    background-color: rgb(58, 58, 253);
+    color: rgb(255, 243, 243);
+}
